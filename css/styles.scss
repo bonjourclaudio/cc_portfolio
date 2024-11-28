@@ -204,6 +204,11 @@ img {
             a {
                 height: 100%;
 
+                @media screen and (max-width: 900px) {
+                    width: 100%;
+                    height: auto;
+                }
+
                 img {
                     height: 100%;
                     width: auto;
