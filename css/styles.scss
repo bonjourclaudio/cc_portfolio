@@ -201,15 +201,19 @@ img {
                 padding-top: 5vh;
             }
 
-            img {
+            a {
                 height: 100%;
-                width: auto;
-                object-fit: contain;
-                border: 1px solid $secondary-color;
 
-                @media screen and (max-width: 900px) {
-                    width: 100%;
-                    height: auto;
+                img {
+                    height: 100%;
+                    width: auto;
+                    object-fit: contain;
+                    border: 1px solid $secondary-color;
+
+                    @media screen and (max-width: 900px) {
+                        width: 100%;
+                        height: auto;
+                    }
                 }
             }
 
