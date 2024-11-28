@@ -229,7 +229,7 @@ img {
 }
 
 // ###################################
-// Content Container
+/* Content Container
 .content-container {
     height: calc(100vh - 20vh);
     padding-left: 1vw;
@@ -262,7 +262,7 @@ img {
 
             iframe {
                 width: 700px;
-                height: 900px;
+                height: 900px
 
                 @media screen and (max-width: 900px) {
                     width: 100%;
@@ -272,3 +272,5 @@ img {
         }
     }
 }
+
+*/
