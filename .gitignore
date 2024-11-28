@@ -1,0 +1,2 @@
+# Ignore Pages folder since it's linking directly to the proj sites
+./pages
